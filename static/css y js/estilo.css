@@ -71,9 +71,9 @@ section {
 footer {
   color: var(--accent-color);
   background-color: var(--accent-color);
-  padding: 20px 0;
+  padding: 5px 0;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 
@@ -107,7 +107,6 @@ footer {
   list-style-type: none;
   margin-top: 15px;
   text-align: right;
-  background-color: transparent;
 }
 
 .nav-links ul li{
@@ -135,7 +134,6 @@ footer {
 .perfil {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .perfil img{
@@ -190,17 +188,17 @@ footer {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin: 10px;
   padding: 5px;
 }
 
 .skill {
   width: 200px;
-  margin: 10px;
+  margin: auto;
   text-align: center;
   border-right: 1px solid #ccc;
-  margin-bottom: 10px;
   padding-bottom: 10px;
+  align-items: center;
 }
 
 .skillImg {
@@ -279,8 +277,16 @@ footer {
 }
 
 .container-footer {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
+}
+
+.container-footer img{
+  display: flex;
+  width: 20px;
+  margin: auto;
+  height: auto;
+  cursor: pointer;
 }
 
 #Contacto {
