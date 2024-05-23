@@ -282,6 +282,16 @@ footer {
   margin: 0 auto;
 }
 
+.container-footer p{
+  font-style: italic;
+  margin: 5px;
+}
+
+.social{
+ margin:10px;
+ padding: 5px;
+}
+
 .container-footer img{
   display: flex;
   width: 20px;
