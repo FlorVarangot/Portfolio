@@ -69,11 +69,11 @@ ul li {
 main {
   flex:content;
   padding: 5px;
+  margin-top: 80px;
 }
 
 section {
   margin-bottom: 100px;
-  margin-top: 100px;
 }
 
 footer {
@@ -83,7 +83,6 @@ footer {
   text-align: center;
   font-size: 15px;
 }
-
 
 .header{
   border: 2px solid white;
@@ -216,8 +215,12 @@ footer {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 30px;
   padding: 5px;
+  width: 1200px;
+
 }
 
 .skill {
@@ -230,9 +233,10 @@ footer {
 }
 
 .skillImg {
-  width: 60px;
+  width: 70px;
   margin: auto;
   height: auto;
+  align-items: center;
 }
 
 .cursos{
@@ -249,24 +253,31 @@ footer {
 
 .cursos p{
   margin: auto;
+  font-size: larger;
 }
 
 .input{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  text-align: left;
   margin-bottom: 15px;
 }
 
 .input label{
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
-.input input, .input textarea{
-  flex-grow: 1;
-  padding: 8px;
-  font-size: 16px;
-  width: 300px;
+.input input,
+.input textarea{
+flex-grow: 1;
+padding: 8px;
+font-size: 16px;
+width: 1000px;
+}
+
+.input textarea{
+  height: 140px;
 }
 
 .btn-enviar {
@@ -277,6 +288,7 @@ footer {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 10%;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -300,13 +312,19 @@ footer {
 }
 
 .info{
-  margin-top: 15px;
+  margin-top: 5px;
   padding: 5px;
+  font-size: 50px;
+}
+
+.info h2{
+  font-size: 20px;
 }
 
 .container-footer {
   max-width: 600px;
   margin: 0 auto;
+  font-size: 16px;
 }
 
 .container-footer img{
@@ -321,13 +339,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 #Contacto label{
-  text-align: center;
   font-family: 'Courier New', monospace;
-  font-size: 15px;
+  font-size: 16px;
+  margin: 10px;
 }
 
 #logo {
