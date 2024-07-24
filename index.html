@@ -7,13 +7,11 @@
     <!-- CSS-->
     <link rel="stylesheet" href="./static/css/estilo.css">
     <!-- JS -->
-    <script src="./static/js/javascript.js"></script>
+    <script src="/static/js/javascript.js"></script>
     <!-- Favicon -->
     <link rel="icon" href="./static/img/favicon.ico">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <title> Mi portfolio - MFRV</title>
@@ -25,7 +23,7 @@
         <!-- BARRA DE NAVEGACION -->
         <nav class="navbar">
             <div id="logo">        
-                <h1><a href="/"> <  MFRV  ></MFRV></a></h1>
+                <h1><a href="/"><  MFRV  ></MFRV></a></h1>
             </div>
             <div class="nav-links">
                 <!-- Hipervinculos -->
@@ -51,10 +49,14 @@
                 <img src="./static/img/perfil.png" alt="ImgPerfil">
                 <a href="#Bio"></a>
             </div>
-            <p>Hola, soy Flor y tengo 33 años. Desde muy chica me interesaron el arte, la naturaleza y las tecnologías. Cuando terminé el colegio secundario estudié la Licenciatura en Arte Dramático y me dediqué a ese mundo durante algunos años. Luego la vida me llevó a lo comunitario y lo deportivo; pero no importaba a qué me dedicara, siempre la tecnología tenía un lugar en mi vida.
-            Desde que tengo recuerdo me interesaron las innovaciones tecnológicas, las herramientas digitales, y ahora también el mundo de la programación. Soy estudiante activa de la tecnicatura universitaria en Programación en UTN, y de muchos otros cursos que se encuentran en la web.
-            </p>
-            <p>¡Bienvenido/a!<br><br></p>
+            <div class="bio">
+                <p>Hola, soy Flor y tengo 33 años.<br>
+                    Desde muy chica me interesaron el arte, la naturaleza y las tecnologías. Cuando terminé el colegio secundario estudié la Licenciatura en Arte Dramático y me dediqué a ese mundo durante algunos años. Luego la vida me llevó a lo comunitario y lo deportivo; pero no importaba a qué me dedicara, siempre la tecnología tenía un lugar en mi vida.
+                    <br>Desde que tengo recuerdo me interesaron las innovaciones tecnologicas, las herramientas digitales, y ahora también el mundo de la programación y desarrollo tecnológico.
+                    <br>Soy estudiante activa de la tecnicatura universitaria en Programación en UTN, y de muchos otros cursos disponibles en la web.
+                </p>
+                <p>¡Bienvenido/a!<br><br></p>
+            </div>
         </section>
 
         <!-- PORTFOLIO -->
@@ -64,29 +66,53 @@
                 <div class="card">
                     <img src="https://cdn-icons-png.flaticon.com/128/8285/8285335.png" alt="restaurant">
                     <a href="https://github.com/GCuelloARG/TP_final_RestoControl.git">"RESTO-CONTROL"</a>
-                    <p>TP Final de LABORATORIO II</p>
-                    <p>Trabajo en grupo sobre gestión de archivos. Gestión para restaurant.</p>
+                    <hr>
+                    <h3>TP final LABORATORIO II (UTN)</h3>
+                    <p>Trabajo en grupo sobre gestión de archivos. <br>Gestión para restaurant.<br><br>[ C++ ]</p>
                 </div>
 
                 <div class="card">
                     <img src="https://cdn-icons-png.flaticon.com/128/9453/9453323.png" alt="catalogo">
-                    <a href="https://github.com/FlorVarangot/TP2_WinForm_C2.git">WINFORMS</a>
-                    <p>TP de PROGRAMACIÓN III</p>
-                    <p>Trabajo en grupo sobre app de escritorio. Gestión de productos tipo catálogo.</p>
+                    <a href="https://github.com/FlorVarangot/TP2_WinForm_C2.git">WINFORMS APP</a>
+                    <hr>
+                    <h3>TP 2 PROGRAMACIÓN III (UTN)</h3>
+                    <p>Trabajo en grupo sobre app de escritorio.<br> Gestión de productos tipo catálogo.
+                        <br><br>[ C# ]</p>
                 </div>
 
                 <div class="card">
                     <img src="https://cdn-icons-png.flaticon.com/128/10221/10221850.png" alt="pintor">
-                    <a href="https://github.com/FlorVarangot/OskyDiBiase1.git">OSKY DI BIASE</a>
-                    <p>TP integrador para FullStack PYTHON de CODO A CODO</p>
-                    <p>Trabajo en grupo sobre elaboración de sitios web (html, css, js)</p>
+                    <a href="https://github.com/FlorVarangot/OskyDiBiase1.git">SITIO WEB</a>
+                    <hr>
+                    <h3>TP integrador FullStack (CaC)</h3>
+                    <p>Trabajo en grupo sobre elaboración de sitios web.<br>Página web tipo portfolio 
+                        para artista plástico Osky Di Biase.<br><br>[ HTML, CSS, JS ] + [  PYTHON, T-SQL ]</p>
                 </div>
+            </div>
+
+            <div class="card-container">
                 <div class="card">
                     <img src="https://cdn-icons-png.flaticon.com/128/5484/5484631.png" alt="juego">
                     <a href="/templates/juego.html" target="_blank">JUEGUITO</a>
-                    <p>Juego interactivo en JS</p>
+                    <hr>
+                    <h3>Juego interactivo en JS</h3>
                     <button class="btn-jugar" onclick="adivinarNumero()">¡Jugar!</button>
-                    <p>¡Hacé clic y probalo!</p>
+                    <p>¡Hacé clic y probalo!<br><br>[ JS ]</p>
+                </div>
+                <div class="card">
+                    <img src="https://thumbs.dreamstime.com/b/icono-del-carro-de-compras-vector-14609780.jpg" alt="carrito">
+                    <a href="/templates/juego.html" target="_blank">WEBFORMS APP</a>
+                    <hr>
+                    <h3>TP 4 Programación III (UTN)</h3>
+                    <p>Carrito de compras.<br><br>[ ASP.NET, C# ]</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.vexels.com/media/users/3/157318/isolated/preview/2782b0b66efa5815b12c9c637322aff3-desktop-computer-icon-computer.png" alt="pc">
+                    <a href="/templates/juego.html" target="_blank">WEB-APP</a>
+                    <hr>
+                    <h3>TP Final Programación III (UTN)</h3>
+                    <p>Aplicación web: sistema de gestión backoffice para comercio.
+                        <br><br>[ASP.NET, C#, HTML, CSS, JS, SQL ]</p>
                 </div>
             </div>
         </section>
@@ -110,21 +136,32 @@
                 <div class="skill">
                     <img class="skillImg" src="https://www.pontia.tech/wp-content/uploads/2023/06/Imagen1.png" alt="SQL">
                 </div>
+                <div class="skill">
+                    <img class="skillImg" src="https://th.bing.com/th/id/OIP.urLHYMYPFxkcs6AC4Io9vwHaHa?rs=1&pid=ImgDetMain" alt="MY-SQL">
+                </div>
+                <div class="skill">
+                    <img class="skillImg" src="https://th.bing.com/th/id/OIP.9jAkFPGpe5YO-8RM0Le_XgHaIa?rs=1&pid=ImgDetMain"alt="JS">
+                </div>
+                <div class="skill">
+                    <img class="skillImg" src="https://th.bing.com/th/id/OIP.dJToM1TiZiJA0GYwzDHwjQHaHY?rs=1&pid=ImgDetMain"alt="PY">
+                </div>
+
+                
             </div>
 
             <div class="cursos">
                 <h1>Formación:<br></h1>
                 <div>
-                    <p>Tecnicatura Universitaria en Programación, UTN FRGP (en curso)</p>
+                    <p>Tecnicatura Universitaria en Programación, UTN FRGP (último cuatrimestre en curso)</p>
                 </div>
                 <div>
-                    <p>Curso FullStack Python, Codo a Codo 4.0 (en curso)</p>
+                    <p>Curso FullStack Python, Codo a Codo 4.0</p>
                 </div>
                 <div>
                     <p>Curso SQL interactivo, Academia Desafío Latam</p>
                 </div>
             </div>
-               
+            <br><br>
             <div class="cursos">
                 <h1>Otras habilidades:<br></h1>
                 <div>
@@ -165,7 +202,6 @@
                     <h2>Email: <a target="_blank" href="mailto:florencia.rvarangot@gmail.com">florencia.rvarangot@gmail.com</a></h2>
                     <h2>Teléfono: <a target="_blank" href="tel:+1165926594">+54 9 11 6592 6594</a></h2>
                 </div>
-               
             </div>
         </section>  
     
@@ -176,24 +212,14 @@
         <div class="container-footer">
             <p><b>© 2024 Mi portfolio - MFRV.</b></p>
             <p><b>Todos los derechos reservados.</b></p>
-            <ul class="social">
-                <li>
-                    <a href="https://www.linkedin.com/in/ma-florencia-rod-var/">
-                    <i class="fa-brands fa-linkedin-in" style="color: darkslategrey"></i></a>
-                </li>
-                <li>
-                    <a href="https://github.com/FlorVarangot/">
-                    <i class="fa-brands fa-github" style="color: darkslategrey;"></i></a>
-                </li>
-                <li>
-                    <a href="mailto:florencia.rvarangot@gmail.com">
-                    <i class="fa-solid fa-envelope" style="color: darkslategrey;"></i></a>
-                </li>
-              </ul>
-
-
-
-            </div>
+          <ul>
+            <li><img src="https://th.bing.com/th/id/R.fa52c1c9de9c3d7f3314ee3b1d505fc0?rik=v2zEek9QqtyJJg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f07%2fLinkedin-PNG-Picture.png&ehk=BSjS%2fQJQW3FUb5MvDBG9qTvY21gSbkABcAgqEhKC52Q%3d&risl=&pid=ImgRaw&r=0" alt="Linkedin">
+                <a href="https://www.linkedin.com/in/ma-florencia-rod-var/"></a></li>
+            <li><img src="https://pngimg.com/uploads/github/github_PNG53.png" alt="Github">
+                <a href="https://github.com/FlorVarangot/"></a></li>
+            <li><img src="https://th.bing.com/th/id/OIP.IpB5yPUkCFHOzlmM-O7ncAHaFW?rs=1&pid=ImgDetMain" alt="correo">
+                <a href="mailto:florencia.rvarangot@gmail.com"></a></li>
+          </ul>
         </div>
     </footer>
 </body>

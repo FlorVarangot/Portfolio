@@ -1,3 +1,4 @@
+
 var numeroSecreto = Math.floor(Math.random() * 100) + 1;
 var intentos = 0;
 
@@ -13,6 +14,3 @@ function adivinarNumero() {
         alert("¡Demasiado alto! Intenta de nuevo.");
     }
 }
-
-
-  
