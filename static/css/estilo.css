@@ -5,6 +5,7 @@
   --third-color: #bcf7bc;
   --accent-color: #a2a8ed;
   --secondary-accent-color: #e17dc2;
+  --third-accent-color: #dccfff;
 }
 
 html{
@@ -63,23 +64,23 @@ ul {
 ul li {
   font-size: 21px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 1%;
 }
 
 main {
   flex:content;
   padding: 5px;
-  margin-top: 80px;
+  margin-top: 8%;
 }
 
 section {
-  margin-bottom: 100px;
+  margin-bottom: 10%;
 }
 
 footer {
   color: var(--accent-color);
   background-color: var(--accent-color);
-  padding: 5px 0;
+  padding: 1% 0;
   text-align: center;
   font-size: 15px;
 }
@@ -93,6 +94,8 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
+  font-size: 8px;
+  /* background-color: var(--third-accent-color); */
 }
 
 .navbar {
@@ -179,25 +182,23 @@ footer {
   border: 1px solid var(--primary-color);
   margin-left: 1%;
   margin-right: 1%;
-  margin-bottom: 20px;
-  padding: 20px;
-  width: clamp(320px, calc(35% + 2vw), 480px);
-  height: 450px;
+  margin-bottom: 2%;
+  padding: 2%;
+  /* width: clamp(320px, calc(35% + 2vw), 70%); */
+  width: 80%;
+  /* height: 50%; */
   overflow: auto;
-  border-radius: 20%;
+  border-radius: 15%;
   transition: 0.3s;
   display: flex;
   flex-direction: column;
+  align-items: center;
   word-wrap: break-word;
 }
 
-.card img{
-  align-items: center;
-  width: 90px;
-  height: 90px;
-  margin-top: 10px;
-  margin-bottom: 2px;
-  margin-left: 180px;
+.card i{
+  height: 50px;
+  padding:1%;
 }
 
 .card a{
@@ -212,14 +213,19 @@ footer {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
 }
 
+.portfolio, .section-skills{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 300px;
-  margin-left: 300px;
-  margin-bottom: 30px;
-  padding: 5px;
-  width: 1200px;
+  margin-bottom: 3%;
+  padding: 1%;
+  width: 70vw;
 
 }
 
